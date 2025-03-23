@@ -63,12 +63,13 @@ body{
     margin: 0;
     width: 100px;
     height: 50px;
-    border: solid 3px red;
+    border-radius: 22px;
+    background-color: #CAA7A7;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 70vh;
+    top: 75svh;
     left: 11vw;
     overflow-y: hidden;
 }
@@ -79,5 +80,5 @@ body{
     margin: 0;
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: #221d1dd7;
 }
