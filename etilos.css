@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #3C2439;
+}
+
+
+.titulo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CAA7A7;
+    height: 150px;
+}
+
+
+.titulo-header h1{
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+
+
+/*MAIN PAGINA PRINCIPAL*/
+
+.main-pagina-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: left;
+    font-family: "Albert Sans", sans-serif;
+}
+
+
+
+
+.imagen-tarjetas{
+    width: auto;
+    height: auto;
+}
+
+
+.imagen-tarjetas img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.boton-login{
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    border: solid 3px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70vh;
+    left: 11vw;
+    overflow-y: hidden;
+}
+
+
+.boton-login h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
