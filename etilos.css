@@ -71,9 +71,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 75svh;
-    left: 11vw;
     overflow-y: hidden;
 }
 
@@ -99,9 +96,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 75svh;
-    left: 30vw;
     overflow-y: hidden;
 }
 
@@ -113,65 +107,15 @@ body{
     color: #221d1dd7;
     font-family: "Albert Sans", sans-serif;
 }
-
-
-
-/*PAGINA LOGIN*/
-
-.logo-login{
-    width: 80px;
-    height: 80px;
-    background-color: #D9D9D9;
+.botonesInicio{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
+    position: relative;
+    bottom: 5%;
+    gap: 15px;
 }
-
-.titulo-login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55%;
-}
-
-.contenedor-login{
-    width: auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-}
-
-.contenedor-login input{
-    width: 700px;
-    height: 35px;
-    border-radius: 22px;
-    padding-left: 3%;
-    text-align: center;
-    font-size: 15px;
-    background-color: #D9D9D9;
+.botonesInicio a{
+    text-decoration: none;
 }
 
 
-.input-text{
-    margin-bottom: 6%;
-}
-
-
-.contenedorLogin2{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 20%;
-}
 
